@@ -1,0 +1,96 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 8188
+License: Customer
+
+Current time: 	Fri Jan 18 12:20:54 IST 2019
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 7
+OS Version: 6.1
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 218 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	161072
+User home directory: C:/Users/161072
+User working directory: C:/Users/161072/lab0
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/161072/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/161072/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/161072/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/161072/lab0/vivado.log
+Vivado journal file location: 	C:/Users/161072/lab0/vivado.jou
+Engine tmp dir: 	C:/Users/161072/lab0/.Xil/Vivado-8188-J039
+
+GUI allocated memory:	179 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 547 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// [GUI Memory]: 14 MB (+12644kb) [00:00:05]
+// [Engine Memory]: 313 MB (+176499kb) [00:00:05]
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: START_GUI
+// [GUI Memory]: 65 MB (+52169kb) [00:00:21]
+// [Engine Memory]: 543 MB (+224862kb) [00:00:21]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\161072\lab0\lab0.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 76 MB (+8204kb) [00:00:22]
+// Tcl Message: open_project C:/Users/161072/lab0/lab0.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 547 MB. GUI used memory: 33 MB. Current time: 1/18/19 12:20:56 PM IST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/161072/lab0/lab0.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 576 MB (+6031kb) [00:00:32]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 630 MB (+27087kb) [00:00:36]
+// Project name: lab0; location: C:/Users/161072/lab0; part: xc7vx485tffg1157-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 830.152 ; gain = 79.535 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 663 MB (+621kb) [00:00:47]
+// PAPropertyPanels.initPanels (exp0file.v) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, exp0file (exp0file.v)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, exp0file (exp0file.v)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, exp0file (exp0file.v)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, exp0file (exp0file.v)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 670 MB. GUI used memory: 38 MB. Current time: 1/18/19 12:21:21 PM IST
